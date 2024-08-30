@@ -1,5 +1,3 @@
-import React from "react";
-
 function SignUp() {
   return (
     <div className="border w-1/3 rounded-lg mt-3 h-1/2 flex flex-col justify-center items-center mb-3 text-white">

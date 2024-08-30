@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import {Login, SignUp} from './Screen/Screen.ts'
-import { createBrowserRouter,Route,RouterProvider,createRoutesFromElements, Router } from 'react-router-dom'
+import { createBrowserRouter,Route,RouterProvider,createRoutesFromElements } from 'react-router-dom'
 
 
 const route = createBrowserRouter(createRoutesFromElements(
