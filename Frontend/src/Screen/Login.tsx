@@ -2,7 +2,17 @@
 
 function Login() {
   return (
-    <div>Login</div>
+    <div className="border w-1/3 rounded-lg mt-3 h-1/2 flex flex-col justify-center items-center mb-3 text-white">
+        <h1 className="text-white text-center font-outfit text-4xl font-bold">Login</h1>
+        <form className="flex flex-col p-5">
+            <label htmlFor="username">Username</label>
+            <input type="text" id="username" name="username" className="border p-1 mb-2"/>
+            <label htmlFor="password">Password</label>
+            <input type="password" id="password" name="password" className="border p-1 mb-2"/>
+            <button className="border p-1 bg-blue-500 text-white" type="submit">Login</button>
+        </form>
+        
+    </div>
   )
 }
 
