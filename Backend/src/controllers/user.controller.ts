@@ -7,7 +7,7 @@ const reqisterUserSchema = z.object({
   password: z.string().min(6).max(100),
   name: z.string().min(2).max(100),
 });
-
+// type RegisterParams = z.infer<typeof reqisterUserSchema>;
 
 const prisma = new PrismaClient();
 //OPtions for cookie parser
